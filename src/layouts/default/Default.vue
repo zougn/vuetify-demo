@@ -1,6 +1,9 @@
 <template>
   <v-app>
-    <h2>hello</h2>
+    <nav>
+      <RouterLink to="/vuetify">Home</RouterLink>
+      <RouterLink to="/vuetify/about">About</RouterLink>
+    </nav>
     <default-view />
   </v-app>
 </template>
